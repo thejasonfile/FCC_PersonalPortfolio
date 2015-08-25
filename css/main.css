@@ -1,0 +1,25 @@
+.container-fluid {
+	padding-right: 20em;
+	padding-left: 20em;
+}
+
+.navbar-brand {
+	font-size: 3em;
+	padding-top: 1.1em;
+}
+
+.navbar-right {
+	padding-top: 1em;
+}
+
+.navbar-right  li {
+	list-style: none;
+	display: inline;
+}
+
+.navbar-right button {
+	font-size: 2em;
+	padding: 0.7em;
+	margin-right: 0.3em;
+	border-radius: 0.5em;
+}
