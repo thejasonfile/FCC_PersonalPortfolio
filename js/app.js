@@ -1,0 +1,1 @@
+$(".background-pic").css("min-height", $(window).height());

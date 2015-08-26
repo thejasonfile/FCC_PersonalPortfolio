@@ -1,25 +1,26 @@
-.container-fluid {
-	padding-right: 20em;
-	padding-left: 20em;
+#about {
+	background-image: url("../images/bamboo-small.jpg");
+	color: white;
 }
 
-.navbar-brand {
-	font-size: 3em;
-	padding-top: 1.1em;
+#contact {
+	background-image: url("../images/road-small.jpg");
+	color: white;
 }
 
-.navbar-right {
-	padding-top: 1em;
+.background-pic {
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	padding: 15em 30em 30em;
+	text-align: center;
 }
 
-.navbar-right  li {
-	list-style: none;
+.jumbotron {
+	margin: 0;
+}
+
+#about li {
 	display: inline;
-}
-
-.navbar-right button {
-	font-size: 2em;
-	padding: 0.7em;
-	margin-right: 0.3em;
-	border-radius: 0.5em;
+	list-style: none;
 }
