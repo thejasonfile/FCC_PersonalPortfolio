@@ -1,5 +1,10 @@
-#about {
+#home {
 	background-image: url("../images/bamboo-small.jpg");
+	color: white;	
+}
+
+#about {
+	background-image: url("../images/coffee-small.jpg");
 	color: white;
 }
 
@@ -9,9 +14,10 @@
 }
 
 #contact {
-	background-image: url("");
+	background-image: url("../images/flatiron-small.jpg");
 	color: white;
 }
+
 
 .background-pic {
 	padding-top: 10em;
@@ -25,9 +31,10 @@
 	margin: 0;
 }
 
-#about li {
+li {
 	display: inline;
 	list-style: none;
+	margin: 0 0.5em 0 0.5em;
 }
 
 .fa {
