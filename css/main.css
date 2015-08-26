@@ -3,8 +3,13 @@
 	color: white;
 }
 
-#contact {
+#portfolio {
 	background-image: url("../images/road-small.jpg");
+	color: white;
+}
+
+#contact {
+	background-image: url("");
 	color: white;
 }
 
@@ -23,4 +28,8 @@
 #about li {
 	display: inline;
 	list-style: none;
+}
+
+.fa {
+	margin-right: 1em;
 }
