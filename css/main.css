@@ -1,34 +1,5 @@
-#home {
-	background-image: url("../images/bamboo-small.jpg");
-	color: white;	
-}
-
-#about {
-	background-image: url("../images/coffee-small.jpg");
-	color: white;
-}
-
-#portfolio {
-	background-image: url("../images/road-small.jpg");
-	color: white;
-}
-
-#contact {
-	background-image: url("../images/flatiron-small.jpg");
-	color: white;
-}
-
-
-.background-pic {
-	padding-top: 10em;
-	background-size: cover;
-	background-attachment: fixed;
-	width: 100%;
-	text-align: center;
-}
-
-.jumbotron {
-	margin: 0;
+body {
+	font-family: Helvetica, sans-serif;
 }
 
 li {
@@ -37,6 +8,73 @@ li {
 	margin: 0 0.5em 0 0.5em;
 }
 
+.navbar-default {
+	background-image: linear-gradient(to bottom,#FFF 0,#8D8D8D 100%);
+}
+
+.navbar-right {
+	padding-top: 0.6em;
+}
+
+.navbar-right a {
+	color: rgba(140, 140, 140, 1);
+}
+
+.background-pic {
+	padding-top: 10em;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+
+.jumbotron {
+	margin: 0;
+}
+
 .fa {
 	margin-right: 1em;
+}
+
+.btn {
+	box-shadow: 0.2em 0.2em 0.3em #888888;
+}
+
+.bio p {
+	font-size: 3em;
+}
+
+.project {
+	border: 2px solid #BBBBBB;
+	height: 100px;
+	margin: 1em 0 0 0;
+}
+
+#home {
+	background-image: url("../images/bamboo-small.jpg");
+}
+
+#about {
+	background-image: url("../images/coffee-small.jpg");
+	color: white;
+}
+
+#myphoto {
+	max-height: 50%;
+	max-width: 50%;
+	border: 3px solid white;
+	border-radius: 50%;
+}
+
+#portfolio {
+	background-image: url("../images/road-small.jpg");
+}
+
+#contact {
+	background-image: url("../images/flatiron-small.jpg");
+}
+
+#projects {
+	margin-top: 5em;
 }

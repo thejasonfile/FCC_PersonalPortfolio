@@ -6,11 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
 
-    <title>Jumbotron Template for Bootstrap</title>
+    <title>Personal Portfolio</title>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -42,10 +39,10 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <div class="navbar-right">
-              <button type="button" class="btn">Home</button>
-              <button type="button" class="btn">About</button>
-              <button type="button" class="btn">Portfolio</button>
-              <button type="button" class="btn">Contact</button>
+              <a href="#home"><button type="button" class="btn">Home</button></a>
+              <a href="#about"><button type="button" class="btn">About</button></a>
+              <a href="#portfolio"><button type="button" class="btn">Portfolio</button></a>
+              <a href="#contact"><button type="button" class="btn">Contact</button></a>
           </div>
         </div><!--/.navbar-collapse -->
       </div>
@@ -56,33 +53,56 @@
       <div class="container">
         <h1>Jason Arnold</h1>
         <h3>Web Developer</h3>
+        <h4>Web sites made while you wait.</h4>
         <hr>
         <ul>
-          <li><a class="btn btn-primary btn-lg" href="#" role="button"><i class="fa fa-twitter"></i>Twitter</a></li>
-          <li><a class="btn btn-primary btn-lg" href="#" role="button"><i class="fa fa-github-alt"></i>GitHub</a></li>
-          <li><a class="btn btn-primary btn-lg" href="#" role="button"><i class="fa fa-linkedin"></i>LinkedIn</a></li>
-          <li><a class="btn btn-primary btn-lg" href="#" role="button"><i class="fa fa-fire"></i>FreeCodeCamp</a></li>
+          <li><a class="btn btn-primary btn-lg" href="http://www.twitter.com/thejasonfile" role="button" target="_blank"><i class="fa fa-twitter"></i>Twitter</a></li>
+          <li><a class="btn btn-primary btn-lg" href="https://github.com/thejasonfile" role="button" target="_blank"><i class="fa fa-github-alt"></i>GitHub</a></li>
+          <li><a class="btn btn-primary btn-lg" href="http://www.linkedin.com/in/jarnoldit" role="button" target="_blank"><i class="fa fa-linkedin"></i>LinkedIn</a></li>
+          <li><a class="btn btn-primary btn-lg" href="http://www.freecodecamp.com/thejasonfile" role="button" target="_blank"><i class="fa fa-fire"></i>FreeCodeCamp</a></li>
         </ul>
       </div>
     </div>
     <div class="jumbotron background-pic" id="about">
       <div class="container">
-        <img id="myphoto" src="">
-        <p>I am a self-taught web developer based in NYC.  I have over 10 years of IT experience and enjoy developing websites with an eye for responsive design.  Languages and frameworks include HTML, CSS, JavaScript, jQuery, and Bootstrap.</p>
+        <div class="row">
+          <div class="col-md-6">
+            <p class="bio">I am a self-taught web developer based in NYC.  I have over 10 years of IT experience and enjoy developing websites with an eye for responsive design.  With prior experience in both help desk and system administration, I am able to listen to the needs of clients while not being afraid of the command line.</p>
+            <p class="bio">Languages and frameworks include HTML, CSS, JavaScript, jQuery, and Bootstrap.</p>
+          </div>
+          <div class="col-md-6">
+             <img id="myphoto" src="https://dl.dropboxusercontent.com/u/755079/images/me.jpg">
+           </div>
+        </div>
       </div>
     </div>
     <div class="jumbotron background-pic" id="portfolio">
       <div class="container">
-        <img id="myphoto" src="">
         <h1>Portfolio</h1>
         <h4>Some of my past projects.</h4>
+        <div class="row" id="projects">
+          <div class="col-md-6">
+            <div class="project" id="project1">
+              Project 1
+            </div>
+            <div class="project" id="project3">
+              Project 3
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="project" id="project2">
+              Project 2
+            </div>
+            <div class="project" id="project4">
+              Project 4
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <div class="jumbotron background-pic" id="contact">
       <div class="container">
-        <img id="myphoto" src="">
         <p>Please get in touch with any questions you may have.  I look forward to hearing from you!</p>
-        <a mailto='jason@thejasonfile.com'>jason@thejasonfile.com</a>
         <ul>
           <li><a class="btn btn-primary btn-lg" href="#" role="button"><i class="fa fa-twitter"></i>Twitter</a></li>
           <li><a class="btn btn-primary btn-lg" href="#" role="button"><i class="fa fa-github-alt"></i>GitHub</a></li>
@@ -103,9 +123,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
     <script src="js/app.js"></script>
   </body>
 </html>
